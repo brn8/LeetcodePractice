@@ -8,6 +8,7 @@ var strStr = function(haystack, needle) {
 					i++;
 					if(j==needle.length-1){
 						return (i-needle.length);
+
 					}
 				}
 				else{
@@ -23,4 +24,4 @@ var strStr = function(haystack, needle) {
 	}
 	return -1;
 };
-console.log(strStr("sadbutsad",  "sad"));
+console.log(strStr("mississippi", "issip"));
